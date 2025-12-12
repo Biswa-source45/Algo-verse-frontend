@@ -6,7 +6,7 @@ import clsx from 'clsx';
 import axios from 'axios';
 import { useAuth } from '../context/AuthContext';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://algo-verse-backend-1.onrender.com';
 
 export default function Problems() {
   const { user } = useAuth();

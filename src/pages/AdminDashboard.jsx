@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Users, FileCode, Send, CheckCircle, Plus, Trash2, Edit, Loader2, X } from 'lucide-react';
 import clsx from 'clsx';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://algo-verse-backend-1.onrender.com';
 
 export default function AdminDashboard() {
   const [stats, setStats] = useState(null);

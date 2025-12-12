@@ -8,7 +8,7 @@ import clsx from 'clsx';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useAuth } from '../context/AuthContext';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://algo-verse-backend-1.onrender.com';
 
 const TEMPLATES = {
   python: `# Read from stdin, write to stdout
