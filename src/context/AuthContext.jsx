@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const AuthContext = createContext();
 
-const API_URL = 'https://algo-verse-backend.onrender.com';
+const API_URL = 'https://algo-verse-backend-1.onrender.com';
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
